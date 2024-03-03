@@ -1,0 +1,20 @@
+// For Loops....
+
+
+package main
+
+import "fmt"
+
+func main() {
+
+for i:=1; i<=10; i++ {  // Scope of I would be with in this for loop. Because the declaration of I happened in the loop.
+
+  if i%2 == 0 {
+  
+    fmt.Printf("%v\t" , i)
+	}
+}
+
+
+
+}
