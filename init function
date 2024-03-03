@@ -1,0 +1,17 @@
+package main
+import "fmt"
+var i int = 20 // Package Level declaration.
+func init() {
+
+i=5 // This will override the package level assignment.
+}
+
+
+
+func main() {
+
+for x:=1; x <= i; x++ {
+	fmt.Printf("%v \t", x)
+	}
+	
+}
