@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func main() {
+	xi := []int{42, 43, 44, 45, 46, 47}
+
+	for _, v := range xi {  // _ is the blank identifier. range function returns index and value. Index goes to _ and values goes to v
+		fmt.Printf("value %v\n",v)
+	}
+}
