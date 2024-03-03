@@ -1,6 +1,10 @@
 package main
 import "fmt"
 var i int = 20 // Package Level declaration.
+
+// init function is a niladic function, it means it will not take any arguments.
+
+
 func init() {
 
 i=5 // This will override the package level assignment.
